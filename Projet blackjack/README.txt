@@ -1,8 +1,7 @@
 --- Groupe ---
 - Alex - 
 - Alessio - 
-- xxxx -
- 
+
 --- Nom du projet ---
 - MA-24_Blackjack --- 
 
