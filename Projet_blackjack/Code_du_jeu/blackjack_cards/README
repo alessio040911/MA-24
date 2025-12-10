@@ -1,34 +1,34 @@
-SVG-cards 2.0.1 
----------------
+SVG-cards 2.0.1
 
-This is a set of playing cards made in pure SVG with all kings, queens, jacks, numbers, jokers and backs of cards. This set of SVG files is intended to be used in games, figures, illustrations, web sites as long as you provide the code source and the LGPL license (see the COPYING file). Although this is a free software, the license is the LGPL so you can use this set of cards even in a non-free software.
+Il s’agit d’un ensemble de cartes à jouer entièrement réalisées en SVG, comprenant tous les rois, dames, valets, cartes numérales, jokers ainsi que le dos des cartes. Cet ensemble de fichiers SVG est destiné à être utilisé dans des jeux, des figures, des illustrations ou des sites Web, tant que vous fournissez le code source et la licence LGPL (voir le fichier COPYING). Bien qu’il s’agisse d’un logiciel libre, la licence LGPL vous permet d’utiliser cet ensemble de cartes même dans un logiciel non libre.
 
-The kings, queens and jacks are based on the french representation, because I find them beautiful. You can access to each either by rendering the file into a pixmap and clipping each card or by using their name with a DOM interface. All cards are inside a SVG group.
-Example :
-the king of spade is inside this group :
+Les rois, dames et valets sont basés sur la représentation française, car je les trouve très beaux. Vous pouvez accéder à chacun soit en rendant le fichier sous forme de pixmap et en découpant chaque carte, soit en utilisant leur nom via une interface DOM. Toutes les cartes se trouvent à l’intérieur d’un groupe SVG.
+Exemple :
+le roi de pique se trouve dans ce groupe :
 
-<g id="king_spade">
-...
-</g>
-
-Names are the following :
+Les noms sont les suivants :
 
 black_joker
+
 red_joker
+
 back
+
 {king,queen,jack}_{club,diamond,heart,spade}
+
 {1,2,3,4,5,6,7,8,9,10}_{club,diamond,heart,spade}
 
-Examples :
-- the ace of club is 1_club
-- the queen of diamond is queen_diamond
+Exemples :
 
-and so on...
+l’as de trèfle est 1_club
 
+la dame de carreau est queen_diamond
 
-These cards have been made with GNOME games in mind and have been succesfully tested with Nautilus, Eye of Gnome (both of them use librsvg) and Inkscape.
+et ainsi de suite...
 
-Enjoy!
+Ces cartes ont été créées pour les jeux GNOME et ont été testées avec succès avec Nautilus, Eye of Gnome (tous deux utilisant librsvg) ainsi qu’avec Inkscape.
 
-David 
-Berkeley, CA, USA 08/12/2005
+Amusez-vous bien !
+
+David
+Berkeley, CA, USA – 12/08/2005 (08/12/2005 au format US)
